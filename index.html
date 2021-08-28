@@ -20,23 +20,29 @@
     <!-- <img src="images/bg-mobile-dark.jpg"/> -->
   </div>
   <main>
+    <div class="conntainer">
     <div class="header">
 
       <h1>TODO</h1>
       <div  onclick="changeTheme()" class="tgl-btn"></div>
     </div>
+
     <div class="type-todo">
       <div class="circle"></div>
-      <input type="text" id="todo-input" />
+      <input type="text" id="todo-input" placeholder="create new todo...." />
     </div>
-    <div class="todos"></div>
+    <div class="todos">
+
+    </div>
     <div class="remarks">
       <div class="completedCount"></div>
       <div onclick="clearCompleted()">clear completed</div>
       <div onclick="showAll()">All</div>
       <div onclick="filterActive()">Active</div>
-      <div onclick="filterCompleted" >completed</div>
+      <div onclick="filterCompleted()" >completed</div>
     </div>
+
+  </div>
   </main>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
