@@ -130,7 +130,7 @@ const newTodo = (value) => {
   });
 }
 const showAll = ()=>{
-  document.querySelectorAll(".todo"),forEach((todo) =>{
+  document.querySelectorAll(".todo").forEach((todo) =>{
 todo.style.display="grid";
 console.log("all")
 
